@@ -1,4 +1,5 @@
 {
+  "homepage": "https://umKaren.github.io/tictactoe-react",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -13,6 +14,8 @@
   "description": null,
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

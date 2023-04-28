@@ -5,12 +5,5 @@
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "devDependencies": {},
-  "homepage": "https://umKaren.github.io/tictactoe-react",
-  "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "start": "react-scripts start",
-      "build": "react-scripts build"
-  }
+  "devDependencies": {}
 }
